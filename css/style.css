@@ -41,6 +41,12 @@ body{
 }
 .header-top-nav ul li{
 	display:inline-block;
+    
+}
+
+.center-text{
+text-align: center;
+    font-size: 30px;
 }
 .header-top-nav ul li a{
 	font-family: 'Ropa Sans', sans-serif;
