@@ -44,6 +44,12 @@ body{
     
 }
 
+.sizeoftext {
+    
+    font-size: 10px;
+    image-resolution: 10px;
+}
+
 .center-text{
 text-align: center;
     font-size: 30px;
@@ -142,6 +148,9 @@ hr.style2 {
 	-moz-transition: background 0.5s ease;
 	-o-transition: background 0.5s ease;
 	transition: background 0.5s ease;
+}
+.imageside{
+display:inline-block;vertical-align:top;
 }
 .icon3:hover{
 	background: url(../images/03.png) 0 -22px no-repeat;
@@ -247,16 +256,17 @@ hr.style2 {
 		-o-transition: 0.5s ease;
 		-webkit-transition: 0.5s ease;
 		display: inline-block;
+    align-content: center;
 		background: url(../images/btn_bg.png) repeat-x 0 0 #2c2c2c;
 		line-height: 15px;
 		padding: 10px 8px;
 		font-size: 0.9em;
 		text-transform: uppercase;
-		border-left: 1px solid #424242;
-		border-right: 1px solid #242424;
+		border-left: 1px solid 	#ff7f50;
+		border-right: 1px solid #ff7f50;
 		border-top: 1px solid #646464;
 		border-bottom: 1px solid #171717;
-		color: rgb(160, 160, 160);
+		color: white;
 		font-family: 'Ropa Sans', sans-serif;
 		font-weight: 500;
 		cursor: pointer;
