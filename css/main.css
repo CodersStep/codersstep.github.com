@@ -1527,10 +1527,7 @@ Blog Default
   animation: fadeIn 300ms;
 }
 
-.timeline-divider{
-  position: relative;
-  padding-top: 50px;
-}
+
 
 .timeline-divider:before{
   position: absolute;
